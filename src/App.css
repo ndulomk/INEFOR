@@ -1,0 +1,20 @@
+@font-face {
+  font-family: quick;
+  src: url(../public/font/Quicksand-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: karla;
+  src: url(../public/font/Karla-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: poppins;
+  src: url(../public/font/Poppins-Regular.ttf);
+}
+*{
+  font-family: poppins;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-image: radial-gradient(to right #2f3d30, #292f26, #222d2a);
+}
