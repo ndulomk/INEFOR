@@ -4,6 +4,7 @@ import Navbar from "./Dash/Navbar"
 import Some from "./Dash/Some"
 import SomeGrid from "./Dash/SomeGrid"
 import Elements from "./Products/Elements"
+import Blog from "./blog/Blog"
 
 const Dashbody = () => {
   const myvalue = useSelector(state=>state.boolean.boolean)
@@ -18,6 +19,7 @@ const Dashbody = () => {
         <Some/>
         <SomeGrid/>
         <Elements/>
+        <Blog/>
       </div>
     
     </div>

@@ -1,11 +1,15 @@
 import Dashabout from "./About/Dashabout"
+import Scroll from "./About/Scroll"
+import Blog from "./blog/Blog"
 import Navbar from "./Dash/Navbar"
 
 const About = () => {
   return (
-    <div className="h-[100vh] bg-background shadow-sm shadow-[#00000031]">
+    <div className=" rounded bg-background shadow-sm shadow-[#00000031]">
       <Navbar/>
       <Dashabout/>
+      <Scroll/>
+      <Blog/>
     </div>
   )
 }

@@ -5,6 +5,8 @@ import { useState } from "react"
 import Products from "../components/Products"
 import About from "../components/About"
 import Modal from "../components/sidebar/Modal"
+import Events from "../components/Events"
+import Online from "../components/Online"
 
 const Home = () => {
   const [state, setState] = useState("Home")
@@ -16,6 +18,8 @@ const Home = () => {
       {state === "Home"&&<Dashbody/>}
       {state === "Products"&&<Products/>}
       {state === "About"&&<About/>}
+      {state === "Events"&&<Events/>}
+      {state === "Online"&&<Online/>}
       
     </div>
   )

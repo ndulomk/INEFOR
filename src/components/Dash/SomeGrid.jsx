@@ -5,7 +5,7 @@ import { useSelector } from "react-redux"
 const SomeGrid = () => {
   const myvalue = useSelector(state=>state.boolean.boolean)
   return (
-    <>
+    <div className="my-16">
       <div className="px-[2%]">
         <div className="border-b-[2px] border-border mb-8 pb-4">
           <h2 className="text-[25px] font-bold">Resources</h2>
@@ -28,7 +28,7 @@ const SomeGrid = () => {
           })
         }
       </div>
-    </>
+    </div>
     
   )
 }

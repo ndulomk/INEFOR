@@ -1,16 +1,13 @@
 import { BsArrowRight } from "react-icons/bs"
-import { FaArrowRight } from "react-icons/fa"
-import { useSelector } from "react-redux"
 
 const Hero = () => {
-  const myvalue = useSelector(state=>state.boolean.boolean)
   return (
-    <div className="px-[2%] mt-16">
+    <div className="px-[2%] my-16">
       <h1 className="text-[40px] font-bold uppercase">Getting Started with Inefor</h1>
       <p className="text-p text-sm w-[900px]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi amet maiores iusto delectus quas illo iste. Consequatur quae vitae laborum vero, dolor voluptatum vel, eaque tempora mollitia voluptatem, soluta ullam?</p>
       <div className="flex items-center gap-2 mt-4">
         <button className="flex items-center py-1 px-4 rounded-[20px] bg-btn text-textbtn font-bold text-[14px] hover:bg-btn hover:scale-[1.1] hover:text-white transition-[0.5s] gap-2">Quickstart <BsArrowRight/></button>
-        <button className="py-1 px-8 rounded-[15px] bg-transparent border-border border-[2px] text-p font-bold text-[14px] hover:bg-[#3a3a3b72] hover:text-white transition-[0.5s]">Explore</button>
+        <button className="py-1 px-8 rounded-[15px] bg-transparent border-border border-[2px] text-p font-bold text-[14px] hover:bg-cyan-600 hover:text-white transition-[0.5s]">Explore</button>
       </div>
       <div className="mt-8">
         <h2 className="text-[30px] font-bold">SOME STEPS</h2>

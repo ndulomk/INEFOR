@@ -119,4 +119,65 @@ export const moreOne = [
     info:"Learn one of the most wanted skills in the market",
     price:8000
   },
+  {
+    id:7,
+    nome:"Design UI/UX",
+    info:"Base of all systems of higher perfomance for increase your portfolio",
+    price:8000
+  },
+
+]
+
+export const team = [
+  {
+    id:0,
+    nome:"Edgar Manuel Janota",
+    role:"Desenvolvedor web"
+  },
+  {
+    id:1,
+    nome:"Dwigth Schrut",
+    role:"Assistant Regional Manager"
+  },
+  {
+    id:2,
+    nome:"Michael Gary Scott",
+    role:"Regional Manager"
+  },
+  {
+    id:3,
+    nome:"David Wallace",
+    role:"CEO"
+  },
+]
+
+export const blog = [
+  {
+    id:0,
+    nome:"Boost your conversation rate",
+    info:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi, non facere. Saepe modi alias corporis eum sequi!",
+    date:"Mar 16, 2024",
+    type:"Marketing",
+    by:"eddie ndulo",
+    link:"blog (1).jpg"
+  },
+  {
+    id:1,
+    nome:"How to use search engine optimization to drive sales",
+    info:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi, non facere. Saepe modi alias corporis eum sequi!",
+    date:"Mar 16, 2024",
+    type:"sales",
+    by:"eddie ndulo",
+    link:"blog (2).jpg"
+  },
+  {
+    id:2,
+    nome:"Improve your customer experience",
+    info:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi, non facere. Saepe modi alias corporis eum sequi!",
+    date:"Mar 16, 2024",
+    type:"Business", 
+    by:"eddie ndulo",
+    link:"blog (3).jpg"
+  },
+  
 ]

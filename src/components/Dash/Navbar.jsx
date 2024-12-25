@@ -26,7 +26,7 @@ const Navbar = () => {
           <span className="text-sm font-bold block">
             Good morning, Eddie
           </span>
-          <span className="text-xs block text-stone-500">Monday, Nov 18 2023</span>
+          <span className="text-xs block text-p">Monday, Nov 18 2023</span>
         </div>
         <div className="flex items-center gap-4">
           {myvalue === true?<CgSun onClick={changemode} className="shadow-xl hover:shadow-white cursor-pointer transition-all" size={18}/>:<CgMoon onClick={mode} className="shadow-xl hover:shadow-white cursor-pointer transition-all" size={18}/>}

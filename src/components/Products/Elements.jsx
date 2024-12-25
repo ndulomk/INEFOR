@@ -21,7 +21,7 @@ const Elements = ({setState}) => {
   }
   
   return (
-    <div className="grid grid-cols-3 px-[2%] gap-8 my-8">
+    <div className="grid grid-cols-3 px-[2%] gap-8 my-20">
       {
         moreOne.map((item, index)=>{
           const sendto=(nome)=>{
